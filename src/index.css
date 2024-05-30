@@ -1,38 +1,4 @@
-.App{
-  text-align: center;
-font-size: larger;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
-0 8px 16px rgba(0, 0, 0, 0.1), 
-0 16px 32px rgba(0, 0, 0, 0.1), 
-0 32px 64px rgba(0, 0, 0, 0.1);
-width: 800px;
-margin-left: 500px;
-padding: 30px;
-margin-top: 30px;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-}
-ul{
-  margin: 30px;
-}
-ul>li{
-  list-style: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
-  0 8px 16px rgba(0, 0, 0, 0.1), 
-  0 16px 32px rgba(0, 0, 0, 0.1), 
-  0 32px 64px rgba(0, 0, 0, 0.1);
-  justify-items: flex-end;
-  margin: 30px;
-  padding: 20px;
-  border-radius: 20px;
-  display: flex;
-  justify-content: space-between;
-  font-size: medium;
-  font-weight: 100;
-}
-button{
-  background-color: violet;
-  color: aliceblue;
-  padding: 10px;
-  border-radius: 10px;
-  border: none;
-}
