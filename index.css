@@ -1,0 +1,80 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #eef2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+.box {
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.box:hover, .box.selected {
+    border-color: green;
+    background-color: #e6f9e6;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.options {
+    display: none;
+    margin-top: 10px;
+}
+.option-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.shipping, .total {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.total {
+    color: #28a745;
+}
+.cart-btn {
+    background-color: green;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+.cart-btn:hover {
+    background-color: darkgreen;
+}
+.popular {
+    color: white;
+    background: pink;
+    padding: 6px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    right: -1px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
